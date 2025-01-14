@@ -1,6 +1,12 @@
 # House Prices Prediction
 
-A complete data science project to predict house prices using regression techniques. This project demonstrates data analysis, preprocessing, feature engineering, and predictive modeling.
+This project analyzes housing data and builds predictive models to estimate house prices using regression techniques. It includes exploratory data analysis (EDA), feature engineering, preprocessing, and predictive modeling.
+
+## Test Output
+
+Below is a test output from the `perform_eda` function, showing the correlation heatmap:
+
+![Correlation Heatmap](results/correlation_heatmap_improved.png)
 
 ## Steps to Run
 
@@ -10,4 +16,4 @@ A complete data science project to predict house prices using regression techniq
 
 ## Results
 
-Final model performance and visualizations are available in the `results/` folder.
+Outputs and visualizations will be saved in the `results/` folder.
