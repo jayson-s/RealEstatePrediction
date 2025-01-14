@@ -1,4 +1,5 @@
+
 def save_results(results, file_path):
-    print("Saving results...")
-    # Add logic to save results
-    pass
+    with open(file_path, 'w') as f:
+        for key, value in results.items():
+            f.write(f"{key}: {value}\n")
