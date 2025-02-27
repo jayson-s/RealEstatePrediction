@@ -4,31 +4,31 @@ This project analyzes housing data and builds predictive models to estimate hous
 
 ## Overview
 
-•	Overview
-•	Project Structure
-•	Features
-•	Requirements
-•	Steps to Run
-•	Results
-•	Notes
+-	Overview
+-	Project Structure
+-	Features
+-	Requirements
+-	Steps to Run
+-	Results
+-	Notes
 
 ## Features
 
-•	Enhanced Exploratory Data Analysis (EDA)
-	•	Saves dataset summary and missing values analysis.
-	•	Generates a correlation heatmap, histograms, boxplots, and (if feasible) a pairplot.
-•	Robust Preprocessing
-	•	Imputes missing numeric values with the median and categorical values with the mode.
-	•	One-hot encodes categorical features.
-	•	Standardizes all features for modeling.
-•	Expanded Modeling
-	•	Trains Linear Regression and Random Forest models.
-	•	Performs hyperparameter tuning for Random Forest using GridSearchCV.
-	•	Evaluates models with cross-validation and test metrics (MSE and R²).
-	•	Generates prediction plots comparing actual vs. predicted house prices.
-•	Logging and Output Management
-	•	Uses Python’s logging module for clear runtime feedback.
-	•	Saves all outputs to the results/ folder for easy review.
+-	Enhanced Exploratory Data Analysis (EDA)
+	-	Saves dataset summary and missing values analysis.
+	-	Generates a correlation heatmap, histograms, boxplots, and (if feasible) a pairplot.
+-	Robust Preprocessing
+	-	Imputes missing numeric values with the median and categorical values with the mode.
+	-	One-hot encodes categorical features.
+	-	Standardizes all features for modeling.
+-	Expanded Modeling
+	-	Trains Linear Regression and Random Forest models.
+	-	Performs hyperparameter tuning for Random Forest using GridSearchCV.
+	-	Evaluates models with cross-validation and test metrics (MSE and R²).
+	-	Generates prediction plots comparing actual vs. predicted house prices.
+-	Logging and Output Management
+	-	Uses Python’s logging module for clear runtime feedback.
+	-	Saves all outputs to the results/ folder for easy review.
 
 
 ## Test Output
@@ -60,12 +60,12 @@ python main.py
 
 ## Results
 
-•	All outputs including EDA plots (e.g., correlation heatmap, histograms, boxplots, pairplot), model evaluation metrics, prediction plots, and saved models are generated in the results/ folder.
-•	A CSV summary (model_results_summary.csv) details the performance metrics for each trained model.
+-	All outputs including EDA plots (e.g., correlation heatmap, histograms, boxplots, pairplot), model evaluation metrics, prediction plots, and saved models are generated in the results/ folder.
+-	A CSV summary (model_results_summary.csv) details the performance metrics for each trained model.
 
 
 ## Notes
 
-•	The project assumes that the dataset contains a target column named "SalePrice" along with a mix of numeric and categorical features.
-•	If you encounter any issues with high cardinality in categorical variables, consider alternative encoding strategies.
-•	Additional feature engineering and outlier handling can be added as needed based on domain knowledge.
+-	The project assumes that the dataset contains a target column named "SalePrice" along with a mix of numeric and categorical features.
+-	If you encounter any issues with high cardinality in categorical variables, consider alternative encoding strategies.
+-	Additional feature engineering and outlier handling can be added as needed based on domain knowledge.
