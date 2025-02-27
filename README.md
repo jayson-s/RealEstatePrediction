@@ -1,6 +1,6 @@
 # EDA & Modelling for Housing Data
 
-This project analyzes housing data and builds predictive models to estimate house prices using regression techniques. It includes exploratory data analysis (EDA), feature engineering, preprocessing, and predictive modeling.
+This project analyzes housing data and builds predictive models to estimate house prices using regression techniques. It includes exploratory data analysis (EDA), feature engineering, preprocessing, and predictive modelling.
 
 ## Overview
 
@@ -19,7 +19,7 @@ This project leverages a house prices dataset with a mix of numeric and categori
 	-	Imputes missing numeric values with the median and categorical values with the mode.
 	-	One-hot encodes categorical features.
 	-	Standardizes all features for modeling.
--	Expanded Modeling
+-	Expanded Modelling
 	-	Trains Linear Regression and Random Forest models.
 	-	Performs hyperparameter tuning for Random Forest using GridSearchCV.
 	-	Evaluates models with cross-validation and test metrics (MSE and R²).
