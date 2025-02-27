@@ -1,4 +1,4 @@
-# HomeScope: EDA and Modeling for House Prices
+# EDA & Modelling for Housing Data
 
 This project analyzes housing data and builds predictive models to estimate house prices using regression techniques. It includes exploratory data analysis (EDA), feature engineering, preprocessing, and predictive modeling.
 
