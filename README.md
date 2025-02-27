@@ -53,7 +53,7 @@ pip install -r requirements.txt
 3. Run the program to execute the pipeline
 
 ```
-python main.py
+python scripts/main.py
 ```
 
 ## Results
