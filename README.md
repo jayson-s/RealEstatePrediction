@@ -5,10 +5,10 @@ This project analyzes housing data and builds predictive models to estimate hous
 ## Overview
 
 This project leverages a house prices dataset with a mix of numeric and categorical features. It automatically:
-	- Performs enhanced EDA (correlation heatmap, histograms, boxplots, pairplots, and missing value analysis).
-	- Preprocesses data by imputing missing values, one-hot encoding categorical features, and standardizing numeric features.
-	- Trains and evaluates multiple regression models (Linear Regression and Random Forest with hyperparameter tuning).
-	- Saves evaluation metrics, plots (e.g., predictions vs. actual values), and the trained models.
+- Performs enhanced EDA (correlation heatmap, histograms, boxplots, pairplots, and missing value analysis).
+- Preprocesses data by imputing missing values, one-hot encoding categorical features, and standardizing numeric features.
+- Trains and evaluates multiple regression models (Linear Regression and Random Forest with hyperparameter tuning).
+- Saves evaluation metrics, plots (e.g., predictions vs. actual values), and the trained models.
 
 ## Features
 
